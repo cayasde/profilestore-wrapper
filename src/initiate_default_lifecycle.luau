@@ -1,13 +1,10 @@
 local Players = game:GetService('Players')
 
 local types = require(script.Parent.types)
-local initialized = false
 
 type Interface<Template> = types.Interface<Template>
 
 return function<Template>(self: Interface<Template>)
-	assert(not initialized, 'Profile lifecyle already initialized.')
-
 	local store = self._store
 	local profiles = self._profiles
 
