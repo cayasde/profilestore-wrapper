@@ -1,0 +1,18 @@
+{
+    "name": "remo",
+    "tree": {
+        "$className": "DataModel",
+        "ServerScriptService": {
+            "$path": "tests",
+            "profile": {
+                "$path": "src",
+                "_Index": {
+                    "$path": "Packages/_Index"
+                },
+                "promise": {
+                    "$path": "Packages/promise.lua"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+syntax = "Luau"
+sort_requires.enabled = true
+column_width = 80
+indent_type = "Tabs"
+space_after_function_names = "Never"
+quote_style = "AutoPreferSingle"
+call_parentheses = "Input"
+line_endings = "Unix"
+collapse_simple_statement = "ConditionalOnly"

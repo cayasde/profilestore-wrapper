@@ -1,0 +1,6 @@
+[workspace]
+cwd = '.'
+
+[workspace.scripts]
+dev = 'scripts/dev.luau'
+install_packages = 'scripts/install_packages'

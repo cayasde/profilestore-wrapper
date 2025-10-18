@@ -1,0 +1,24 @@
+{
+    "luau-lsp.platform.type": "roblox",
+    "luau-lsp.sourcemap.enabled": true,
+    "luau-lsp.types.definitionFiles": [
+        "~\\.zune\\typedefs\\global\\zune.d.luau"
+    ],
+    "luau-lsp.types.documentationFiles": [
+        "~\\.zune\\typedefs\\global\\zune.d.json"
+    ],
+    "files.exclude": {
+        ".vscode": false,
+        "Packages": false,
+        "scripts": false,
+        ".gitignore": false,
+        "wally.lock": false,
+        "wally.toml": false,
+        "zune.toml": false,
+        "rokit.toml": false,
+        "sourcemap.json": false,
+        "**.project.json": false,
+        ".luaurc": false,
+        "stylua.toml": false
+    }
+}
