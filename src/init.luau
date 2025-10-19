@@ -1,6 +1,6 @@
 local initiate_default_lifecycle = require('@self/initiate_default_lifecycle')
 local profilestore = require('@self/profilestore')
-local promise = require(script.promise)
+local promise = require(script.Parent.promise)
 local types = require('@self/types')
 
 type Profile<Template> = profilestore.Profile<Template>

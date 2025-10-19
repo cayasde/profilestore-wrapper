@@ -1,5 +1,5 @@
 local profilestore = require(script.Parent.profilestore)
-local promise = require(script.Parent.promise)
+local promise = require(script.Parent.Parent.promise)
 
 type Promise<T...> = promise.TypedPromise<T...>
 export type Profile<Template> = profilestore.Profile<Template>
