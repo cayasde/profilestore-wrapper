@@ -1,0 +1,20 @@
+[tools]
+"github:JohnnyMorganz/wally-package-types" = "latest"
+"github:Scythe-Technology/zune" = "0.5.1"
+"github:UpliftGames/wally" = "0.3.2"
+"github:rojo-rbx/rojo" = "7.6.1"
+
+[tasks.sync_wally_types]
+run = "wally-package-types --sourcemap sourcemap.json Packages"
+
+[tasks.install_packages]
+run = "wally install"
+
+[tasks.rojo_serve]
+run = "rojo serve test.project.json"
+
+[tasks.sourcemap_syncer]
+run = "rojo sourcemap test.project.json --output sourcemap.json --watch"
+
+[tasks.dev]
+depends = ["rojo_serve", "sourcemap_syncer"]
